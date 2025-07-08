@@ -65,6 +65,7 @@ transition: opacity 0.1s ease-in;
   outline: none;
   text-align: center;
   border-radius: 10px;
+  text-shadow: #000 1px 0 10px;
 }
 
 #taskInput::placeholder {
@@ -72,6 +73,8 @@ transition: opacity 0.1s ease-in;
   background-color: darkslategray;
   opacity: 0.8
 }
+
+
 
 #taskSubmit {
   background-color: darkolivegreen;
