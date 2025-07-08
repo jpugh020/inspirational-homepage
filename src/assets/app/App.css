@@ -1,0 +1,231 @@
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body{
+background-clip:content-box;
+background-repeat: no-repeat;  
+background-size: cover;
+}
+
+button {
+  border-radius: 10px !important;
+}
+
+button:hover {
+  border: none !important;
+}
+
+ul {
+  padding: 0;
+}
+
+.opacity {
+opacity: 0.75;
+transition: opacity 0.1s ease-in;
+}
+
+.opacity:hover {
+  opacity: 1;
+}
+
+.opacity:focus {
+  opacity: 1;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#todos {
+  width: fit-content;
+  position: relative;
+}
+
+#taskInput {
+  width: 100%;
+  padding-top: 4px;
+  display: block;
+  background: 0;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-size: 2.25em;
+  line-height: 1.2;
+  font-weight: 500;
+  outline: none;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#taskInput::placeholder {
+  color: #fff;
+  background-color: darkslategray;
+  opacity: 0.8
+}
+
+#taskSubmit {
+  background-color: darkolivegreen;
+  text-shadow: #000 1px 0 10px;
+  
+}
+
+#addTodos {
+  width: 100%;
+  
+}
+#todoForm {
+  width: 100%;
+}
+
+#todosPlaceholder {
+background-color: darkslategray;
+border-radius: 5px;
+opacity: 0.8;
+color: #fff;
+}
+
+.todo {
+  color: #fff;
+  border-radius: 10px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: darkslategrey;
+  margin: 2.5%;
+}
+.todoActions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.todoButtons {
+  opacity: 0;
+  transition: opacity 0.1s ease-in;
+}
+
+.todo:hover .todoButtons {
+  opacity: 0.5;
+}
+
+#completeButton {
+  background-color: green;
+  height: 20%;
+  width: 48%;
+}
+#deleteButton {
+  background-color: red;
+  height: 20%;
+  width: 48%;
+
+}
+#completeButton:hover {
+  opacity: 1;
+  border: none !important;
+}
+#deleteButton:hover {
+  opacity: 1;
+  border: none !important;
+}
+
+.completed {
+  opacity: 75%;
+}
+
+#imageControlsContainer {
+  width: 100%
+}
+
+#imageControls {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.wallpaper-control button {
+  height: fit-content;
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+  font-size: 64px;
+  cursor: pointer;
+  font-weight: 200;
+  opacity: 0.5;
+  transition: opacity 0.1s ease-in;
+  padding: 0;
+}
+
+.wallpaper-control button:hover {
+  opacity: 1;
+
+}
+
+.wallpaper-control {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+#quotes {
+  opacity: 0.85;
+  border-radius: 10px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+
+}
+.quote {
+  background-color: darkslategray;
+  border-radius: 1em;
+  margin-bottom: 5px;
+  color: #fff;
+  box-sizing: content-box !important;
+  width: 30%
+}
+
+#weatherDiv {
+  font-size: 20px;
+  border-radius: 10px;
+  box-sizing: content-box;
+}
+
+#weather {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+
+.weatherInfo {
+  background-color: darkslategray !important;
+  border-radius: 10px;
+  color: #fff;
+  
+  
+}
+.weatherInfo p{
+  margin-bottom: 0;
+}
+
+.imageDiv {
+  display: flex;
+  align-items: start;
+}
