@@ -9,6 +9,8 @@
 - Data fetching using API calls
 - Data management throughout App lifecycle
 
+[visit the hosted version to test it](https://cool-centaur-c064ba.netlify.app/)
+
 
 
 
